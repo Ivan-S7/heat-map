@@ -1,0 +1,29 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+#legend {
+    background-color: rgb(19, 53, 53);
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
